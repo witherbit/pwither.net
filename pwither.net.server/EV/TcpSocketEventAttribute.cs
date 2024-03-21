@@ -1,0 +1,16 @@
+﻿using pwither.net.server.Enums;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace pwither.net.server.EV
+{
+    public class TcpSocketEventAttribute : pwither.ev.GenericEventAttribute<TcpSocketEventType>
+    {
+        public TcpSocketEventAttribute(TcpSocketEventType id) : base(id)
+        {
+        }
+    }
+}
